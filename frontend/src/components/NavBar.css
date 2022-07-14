@@ -1,0 +1,58 @@
+/* .sidebar {
+  margin: 0px 66px;
+    padding: 0;
+    width: 100%;
+    column-gap: 20px;
+    background-color: #ffff;
+    display: flex;
+    position: fixed;
+    height: 90%;
+    } */
+  
+   li {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+   /* a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-decoration: none;
+    
+  }
+
+   a{
+    text-decoration: none;
+    text-decoration: none;
+  } */
+
+   /* a.active{
+    background-color: rgb(201, 64, 64);
+    color: rgb(179, 44, 44);
+  } */
+
+   /* a:hover:not(.active) {
+    background-color: rgb(158, 19, 19);
+    color: rgb(255, 255, 255);
+  } */
+
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
